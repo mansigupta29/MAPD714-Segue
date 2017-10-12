@@ -67,6 +67,10 @@
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hp-iM-T2M">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="wgH-Me-9QD" id="Dme-0e-Lzy"/>
+                                    <outlet property="delegate" destination="wgH-Me-9QD" id="QPG-da-pBo"/>
+                                </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPj-6B-5b9">
                                 <rect key="frame" x="164" y="318" width="46" height="30"/>
@@ -74,6 +78,9 @@
                                     <constraint firstAttribute="width" constant="46" id="mkT-dn-h28"/>
                                 </constraints>
                                 <state key="normal" title="Select"/>
+                                <connections>
+                                    <action selector="onButtonPressed:" destination="wgH-Me-9QD" eventType="touchUpInside" id="xQD-tl-xuq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -86,6 +93,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dependant" image="dependenticon" id="tRq-UD-6sH"/>
+                    <connections>
+                        <outlet property="dependatPicker" destination="6hp-iM-T2M" id="LyZ-Cu-CEs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0Q-9h-gyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

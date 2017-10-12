@@ -17,6 +17,7 @@
 		3FF0B3E61F8EDA7B001DA351 /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0B3E51F8EDA7B001DA351 /* DoubleComponentPickerViewController.swift */; };
 		3FF0B3E81F8EDA8A001DA351 /* DependantComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0B3E71F8EDA8A001DA351 /* DependantComponentPickerViewController.swift */; };
 		3FF0B3EA1F8EDA97001DA351 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0B3E91F8EDA97001DA351 /* CustomPickerViewController.swift */; };
+		3FFD2FF81F8F01AE0090A38A /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD2FF71F8F01AE0090A38A /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3FF0B3E51F8EDA7B001DA351 /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
 		3FF0B3E71F8EDA8A001DA351 /* DependantComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependantComponentPickerViewController.swift; sourceTree = "<group>"; };
 		3FF0B3E91F8EDA97001DA351 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		3FFD2FF71F8F01AE0090A38A /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../../../Downloads/Week 6/statedictionary.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				3FF0B3D61F8ED76D001DA351 /* Assets.xcassets */,
 				3FF0B3D81F8ED76D001DA351 /* LaunchScreen.storyboard */,
 				3FF0B3DB1F8ED76D001DA351 /* Info.plist */,
+				3FFD2FF71F8F01AE0090A38A /* statedictionary.plist */,
 			);
 			path = MAPD714_Lesson6;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				3FF0B3DA1F8ED76D001DA351 /* LaunchScreen.storyboard in Resources */,
 				3FF0B3D71F8ED76D001DA351 /* Assets.xcassets in Resources */,
+				3FFD2FF81F8F01AE0090A38A /* statedictionary.plist in Resources */,
 				3FF0B3D51F8ED76D001DA351 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +324,7 @@
 				3FF0B3E01F8ED76D001DA351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
